@@ -77,7 +77,7 @@ here.
 
 *That's it for now - later we'll document how to add search functionality*
 
-# Advanced Module Creation
+## Advanced Module Creation
 
 We will document this later, but for now you can look at on of the ZIM based modules
 like [Wikipedia for Schools](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=50)
