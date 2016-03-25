@@ -8,7 +8,7 @@ Great! There are people all around the world using RACHEL right now, and
 your work will benefit them directly. The good news is that it's easy
 to do, and there are people happy to help bring your content to our repository.
 
-### What is a RACHEL module?
+## What is a RACHEL module?
 
 A RACHEL module is just an offline website. Most often it is a simple directory
 of HTML files, images, videos, and other related resources. The only strict
