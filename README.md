@@ -13,9 +13,9 @@ to do, and there are people happy to help bring your content to our repository.
 A RACHEL module is just an offline website. Most often it is a simple directory
 of HTML files, images, videos, and other related resources. The only strict
 requirements are that it functions without an internet connection, and that
-it includes [a special **rachelmod.html** file that can be included in the
+it includes [a special **rachel-index.php** file that can be included in the
 RACHEL index](http://dev.worldpossible.org/cgi/sample_wrap.php?moddir=ebooks-en).
-This HTML file is easy to make using the template we provide.
+This PHP file is easy to make using the template we provide.
 
 It is also possible for RACHEL modules to be based on the ZIM file format,
 or to include PHP code and SQLite database files, which will be covered in
@@ -68,12 +68,12 @@ First: download this repository from github.
 
   `git clone https://github.com/rachelproject/module-template.git`
 
-Inside you'll find the "rachelmod.html" template.  This is the piece of html that
-becomes part of the RACHEL index. As a bare minimum, this is the only part you
-have to do. If you don't fill out the index.htmlf template, it can't be displayed
-in RACHEL. Don't worry -- if you've ever edited HTML before it's very easy.
-Just open the file in a text editor and follow the instructions in the comments
-here.
+Inside you'll find the "rachel-index.php" template. This is the piece of PHP
+that gets included on the front page of RACHEL. As a bare minimum, this is the
+only part you have to do. If you don't fill out the rachel-index.php template,
+it can't be displayed in RACHEL. Don't worry -- if you've ever edited HTML
+before it's very easy. Just open the file in a text editor and follow the
+instructions in the comments here.
 
 *That's it for now - later we'll document how to add search functionality*
 
