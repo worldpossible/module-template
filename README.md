@@ -14,7 +14,7 @@ A RACHEL module is just an offline website. Most often it is a simple directory
 of HTML files, images, videos, and other related resources. The only strict
 requirements are that it functions without an internet connection, and that
 it includes [a special **rachel-index.php** file that can be included in the
-RACHEL index](http://dev.worldpossible.org/cgi/sample_wrap.php?moddir=ebooks-en).
+RACHEL index](http://dev.worldpossible.org/cgi/sample_wrap.php?moddir=en-ebooks).
 This PHP file is easy to make using the template we provide.
 
 It is also possible for RACHEL modules to be based on the ZIM file format,
@@ -24,7 +24,7 @@ or to include PHP code and SQLite database files, which will be covered in
 ## What makes a great RACHEL module?
 
 The best RACHEL modules provide [a friendly interface and enticing presentation
-of unique educational content](http://dev.worldpossible.org/mods/ebooks-en/index.html).
+of unique educational content](http://dev.worldpossible.org/mods/en-ebooks/index.html).
 The target audience is mostly children, people who are less familiar with
 technology, and teachers and instructors with limited time, so usability and
 engagement are of utmost importance. The best content in the world won't make a
@@ -49,7 +49,7 @@ and client load - all of which tend to be in short supply. Think of the
 internet in 1999. 
 
 This is particularly important for video -
-[here are our recommendations](https://github.com/rachelproject/contentshell/issues/1).
+[here are our recommendations](wiki/Video-Quality-Guide).
 
 ## What licenses are appropriate?
 
