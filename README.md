@@ -49,7 +49,7 @@ and client load - all of which tend to be in short supply. Think of the
 internet in 1999. 
 
 This is particularly important for video -
-[here are our recommendations](wiki/Video-Quality-Guide).
+[here are our recommendations](../../wiki/Video-Quality-Guide).
 
 ## What licenses are appropriate?
 
