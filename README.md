@@ -40,8 +40,8 @@ from every page.
 
 3. Use simple, low-overhead HTML, css, and javascript. Aim for compatability
 with old, limited systems: many RACHEL users are on older browsers, slow
-processors, and small screens. Avoid Flash, and use [video.js](http://videojs.com/)
-for embeded video.
+processors, and small screens. Avoid Flash, and use
+[video.js](http://videojs.com/) for embeded video.
 
 4. Compress images, audio, and video to minimum size while retaining
 usability.  Not only does it save storage space but it reduces server, network,
@@ -68,7 +68,7 @@ First: download this repository from github.
 
   `git clone https://github.com/rachelproject/module-template.git`
 
-Inside you'll find the "rachel-index.php" template. This is the piece of PHP
+Inside you'll find the **rachel-index.php** template. This is the piece of PHP
 that gets included on the front page of RACHEL. As a bare minimum, this is the
 only part you have to do. If you don't fill out the rachel-index.php template,
 it can't be displayed in RACHEL. Don't worry -- if you've ever edited HTML
@@ -79,7 +79,45 @@ instructions in the comments here.
 
 ## Advanced Module Creation
 
-We will document this later, but for now you can look at on of the ZIM based modules
-like [Wikipedia for Schools](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=50)
-and emulate that.
+### Zim-based modules
+
+One of the more advanced types of modules you can build is based off
+of a [ZIM file](https://en.wikipedia.org/wiki/ZIM_\(file_format\)). These
+are pre-packaged websites in a compressed, searchable format. They are
+accessed using a program called [Kiwix](http://wiki.kiwix.org/wiki/Software),
+which is included as part of the RACHEL build. All you have to do is put
+the contents of the ZIM file in the right place in your module directory:
+
+* All related zim files go in the subdirectory **data/content**
+  -- a single offline website can contain one or many ZIM files,
+  for example: wiki.zim, wiki.zima, wiki.zimb, etc.
+
+* The ZIM's index must go in the subdirectory **data/index**
+  -- the index will be a directory named something like wiki.idx
+
+This loosely mirrors the directory structure of ZIM files anyway. You can
+download and refer to one of the existing ZIM-based RACHEL modules like
+[Wikipedia for Schools](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=50) to see this in action. It also demonstrates how to connect your
+rachel-index.php to the built-in Kiwix search.
+
+You can find [a full listing of ZIM files here](http://wiki.kiwix.org/wiki/Content_in_all_languages). Be sure to download the "Pre-indexed" versions. You can
+discard everything but what's in data/content and data/index. The RACHEL system
+already has the Kiwix softwater, and will automatically build library files as
+needed.
+
+### Other Advanced Modules
+
+Since the RACHEL system comes with PHP and SQLite installed, there is really
+no limit to how creative you can get. We will leave the actual development
+up to you, but here are some examples:
+
+* [World Map](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=100) --
+  uses [Leaflet](http://leafletjs.com/) to provide dynamic mapping and a
+  custom Ajax/PHP/SQLite city search feature.
+
+* [wikiHow](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=102) --
+  uses a custom Ajax/PHP/SQLite for search suggestions and results.
+
+  
+
 
