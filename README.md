@@ -63,7 +63,7 @@ Please do not submit content that is not licensed for redistribution as we will
 have to remove it. If you find any RACHEL content that you believe is not
 properly licensed, please LET US KNOW.
 
-## How do i get started?
+## How do I get started?
 
 First: download this repository from github.
 
@@ -74,9 +74,17 @@ that gets included on the front page of RACHEL. As a bare minimum, this is the
 only part you have to do. If you don't fill out the rachel-index.php template,
 it can't be displayed in RACHEL. Don't worry -- if you've ever edited HTML
 before it's very easy. Just open the file in a text editor and follow the
-instructions in the comments here.
+instructions in the comments there.
 
-*That's it for now - later we'll document how to add search functionality*
+You'll need to rename your directory from module-template to whatever name
+you want for your module. By convention, the name must start with the two
+letter language code and a hyphen. Thus we have
+[en-wikipedia](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=20) and
+[fr-wikipedia](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=77)
+for English and French, respectively. The name must be unique, so check
+[our module repository](http://dev.worldpossible.org/cgi/rachelmods.pl) first.
+
+*That's it for now - but read on if you want to get fancy.*
 
 ## Advanced Module Creation
 
@@ -123,4 +131,12 @@ up to you, but here are some examples:
   a simple file upload program so non-technical people can put their own
   files on RACHEL.  
 
+## RACHEL Search
 
+There are custom tools for spidering your module's content and building an
+efficient search index. These tools are unfortunately not on github yet,
+nor are they documented, but you can take a look at and possibly copy them
+from the search directory on the
+[wikiHow](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=102) module.
+
+*To be documented and published*
