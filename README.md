@@ -110,7 +110,7 @@ download and refer to one of the existing ZIM-based RACHEL modules like
 rachel-index.php to the built-in Kiwix search.
 
 You can find [a full listing of ZIM files here](http://wiki.kiwix.org/wiki/Content_in_all_languages). Be sure to download the "Pre-indexed" versions. You can
-discard everything but what's in data/content and data/index. The RACHEL system
+discard everything except for what's in data/content and data/index. The RACHEL system
 already has the Kiwix software, and will automatically build library files as
 needed.
 
