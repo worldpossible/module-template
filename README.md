@@ -56,8 +56,8 @@ This is particularly important for video -
 
 Content submitted to RACHEL must either be in the public domain or under an
 open license such as Creative Commons, GPL, etc. Whatever the license, please
-follow all the terms. As a courtesy, please provide attribution even if it is
-not required.
+follow all the terms, and include a viewable copy in the module itself.
+As a courtesy, please provide attribution even if it is not required.
 
 Please do not submit content that is not licensed for redistribution as we will
 have to remove it. If you find any RACHEL content that you believe is not
