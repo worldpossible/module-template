@@ -16,7 +16,7 @@ of HTML files, images, videos, and other related resources. The only strict
 requirements are that it functions without an internet connection, and that
 it includes [a special **rachel-index.php** file that can be included in the
 RACHEL index](http://dev.worldpossible.org/cgi/sample_wrap.php?moddir=en-ebooks).
-This PHP file is easy to make using the template we provide.
+This PHP file is easy to make using the template we provide in this repository.
 
 It is also possible for RACHEL modules to be based on the ZIM file format,
 or to include PHP code and SQLite database files, which are covered in
@@ -88,6 +88,24 @@ for English and French, respectively. The name must be unique, so check
 
 ## Advanced Module Creation
 
+### PHP/SQLite Modules
+
+Since the RACHEL system comes with PHP and SQLite installed, there is really
+no limit to how creative you can get. You can create fully feautred dynamic
+websites with any feature you like, as long as it can run offline. We will
+leave the actual development up to you, but here are some examples:
+
+* [World Map](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=100) --
+  uses [Leaflet](http://leafletjs.com/) to provide dynamic mapping and a
+  custom Ajax/PHP/SQLite city search feature.
+
+* [wikiHow](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=102) --
+  uses a custom Ajax/PHP/SQLite for search suggestions and results.
+
+* [File Share](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=60) --
+  a simple file upload program so non-technical people can put their own
+  files on RACHEL.  
+
 ### Zim-based modules
 
 One of the more advanced types of modules you can build is based off
@@ -113,23 +131,6 @@ You can find [a full listing of ZIM files here](http://wiki.kiwix.org/wiki/Conte
 discard everything except for what's in data/content and data/index. The RACHEL system
 already has the Kiwix software, and will automatically build library files as
 needed.
-
-### Other Advanced Modules
-
-Since the RACHEL system comes with PHP and SQLite installed, there is really
-no limit to how creative you can get. We will leave the actual development
-up to you, but here are some examples:
-
-* [World Map](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=100) --
-  uses [Leaflet](http://leafletjs.com/) to provide dynamic mapping and a
-  custom Ajax/PHP/SQLite city search feature.
-
-* [wikiHow](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=102) --
-  uses a custom Ajax/PHP/SQLite for search suggestions and results.
-
-* [File Share](http://dev.worldpossible.org/cgi/viewmod.pl?module_id=60) --
-  a simple file upload program so non-technical people can put their own
-  files on RACHEL.  
 
 ## RACHEL Search
 
